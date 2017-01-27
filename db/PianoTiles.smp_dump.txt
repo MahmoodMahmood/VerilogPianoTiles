@@ -1,0 +1,70 @@
+
+State Machine - |PianoTiles|current
+Name current.DEAD current.IDLE current.COL4CLEARWAIT current.COL4CLEAR current.COL3CLEARWAIT current.COL3CLEAR current.COL2CLEARWAIT current.COL2CLEAR current.COL1CLEARWAIT current.COL1CLEAR current.COL4LUT current.COL3LUT current.COL2LUT current.COL1LUT current.COL4WAIT current.COL4DRAW current.COL3WAIT current.COL3DRAW current.COL2WAIT current.COL2DRAW current.COL1WAIT current.COL1DRAW current.WAIT 
+current.WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current.COL1DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current.COL1WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current.COL2DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current.COL2WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current.COL3DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current.COL3WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current.COL4DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current.COL4WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current.COL1LUT 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current.COL2LUT 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current.COL3LUT 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current.COL4LUT 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL1CLEAR 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL1CLEARWAIT 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL2CLEAR 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL2CLEARWAIT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL3CLEAR 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL3CLEARWAIT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL4CLEAR 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL4CLEARWAIT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.IDLE 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.DEAD 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |PianoTiles|tile:t4|current
+Name current.DONE current.MOVELUT current.IDLE2 current.SETPOS current.PLOT current.CHECK current.SHIFT_R current.WAIT 
+current.WAIT 0 0 0 0 0 0 0 0 
+current.SHIFT_R 0 0 0 0 0 0 1 1 
+current.CHECK 0 0 0 0 0 1 0 1 
+current.PLOT 0 0 0 0 1 0 0 1 
+current.SETPOS 0 0 0 1 0 0 0 1 
+current.IDLE2 0 0 1 0 0 0 0 1 
+current.MOVELUT 0 1 0 0 0 0 0 1 
+current.DONE 1 0 0 0 0 0 0 1 
+
+State Machine - |PianoTiles|tile:t3|current
+Name current.DONE current.MOVELUT current.IDLE2 current.SETPOS current.PLOT current.CHECK current.SHIFT_R current.WAIT 
+current.WAIT 0 0 0 0 0 0 0 0 
+current.SHIFT_R 0 0 0 0 0 0 1 1 
+current.CHECK 0 0 0 0 0 1 0 1 
+current.PLOT 0 0 0 0 1 0 0 1 
+current.SETPOS 0 0 0 1 0 0 0 1 
+current.IDLE2 0 0 1 0 0 0 0 1 
+current.MOVELUT 0 1 0 0 0 0 0 1 
+current.DONE 1 0 0 0 0 0 0 1 
+
+State Machine - |PianoTiles|tile:t2|current
+Name current.DONE current.MOVELUT current.IDLE2 current.SETPOS current.PLOT current.CHECK current.SHIFT_R current.WAIT 
+current.WAIT 0 0 0 0 0 0 0 0 
+current.SHIFT_R 0 0 0 0 0 0 1 1 
+current.CHECK 0 0 0 0 0 1 0 1 
+current.PLOT 0 0 0 0 1 0 0 1 
+current.SETPOS 0 0 0 1 0 0 0 1 
+current.IDLE2 0 0 1 0 0 0 0 1 
+current.MOVELUT 0 1 0 0 0 0 0 1 
+current.DONE 1 0 0 0 0 0 0 1 
+
+State Machine - |PianoTiles|tile:t1|current
+Name current.DONE current.MOVELUT current.IDLE2 current.SETPOS current.PLOT current.CHECK current.SHIFT_R current.WAIT 
+current.WAIT 0 0 0 0 0 0 0 0 
+current.SHIFT_R 0 0 0 0 0 0 1 1 
+current.CHECK 0 0 0 0 0 1 0 1 
+current.PLOT 0 0 0 0 1 0 0 1 
+current.SETPOS 0 0 0 1 0 0 0 1 
+current.IDLE2 0 0 1 0 0 0 0 1 
+current.MOVELUT 0 1 0 0 0 0 0 1 
+current.DONE 1 0 0 0 0 0 0 1 

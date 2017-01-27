@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at PianoTiles.v(370): object "shift_r" differs only in case from object "SHIFT_R" in the same scope File: C:/Users/mah-a/Desktop/SKULE/ECE241/FinalProject/PianoTiles/PianoTiles.v Line: 370
+Info (10281): Verilog HDL Declaration information at PianoTiles.v(370): object "done" differs only in case from object "DONE" in the same scope File: C:/Users/mah-a/Desktop/SKULE/ECE241/FinalProject/PianoTiles/PianoTiles.v Line: 370

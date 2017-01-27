@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Nov 28 01:57:05 2016
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : PianoTiles
+Top-level Entity Name : PianoTiles
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 730 / 32,070 ( 2 % )
+Total registers : 1169
+Total pins : 102 / 457 ( 22 % )
+Total virtual pins : 0
+Total block memory bits : 115,200 / 4,065,280 ( 3 % )
+Total RAM Blocks : 16 / 397 ( 4 % )
+Total DSP Blocks : 2 / 87 ( 2 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )
